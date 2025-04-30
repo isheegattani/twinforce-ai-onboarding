@@ -27,16 +27,11 @@ TwinForce provides each new hire with an AI twin—an onboarding buddy trained o
 - **Slack Bot**: User interface where the new hire interacts via natural language.
 - **Agentforce (Salesforce)**: Handles logic and orchestrates onboarding tasks.
 - **Salesforce Data Cloud**: Stores personalized onboarding content, user profile, and progress.
-- **RAG (Retrieval-Augmented Generation)**: Provides intelligent answers grounded in internal knowledge base (policies, docs, etc.).
+- **RAG (Retrieval-Augmented Generation)**: Provides intelligent answers grounded in the internal knowledge base (policies, docs, etc.).
 
 
-[User - Slack]
-     ⇅
-[Slack Bot]
-     ⇅
-[Agentforce Agent]
-     ⇅                      ⇅
-[Data Cloud]        [RAG Knowledge Base]
+<img width="403" alt="image" src="https://github.com/user-attachments/assets/f4083dd7-96a8-49d8-94c3-11637a9d0dc4" />
+
 
 
 ---
