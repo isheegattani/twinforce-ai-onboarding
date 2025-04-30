@@ -6,7 +6,7 @@ TwinForce is your AI-powered onboarding assistant that mimics a high-performing 
 ---
 
 ### Problem
-New employees often struggle with information overload, inconsistent onboarding experiences, and lack of immediate support. Managers, on the other hand, are stretched thin and unable to offer personalized onboarding at scale.
+New employees often struggle with information overload, inconsistent onboarding experiences, and a lack of immediate support. Managers, on the other hand, are stretched thin and unable to offer personalized onboarding at scale.
 
 ---
 
@@ -76,9 +76,8 @@ LinkedIn: [https://www.linkedin.com/in/manuj4u/](https://www.linkedin.com/in/man
 Email: ishee.gattani30@gmail.com  
 LinkedIn: [https://www.linkedin.com/in/isheegattani/](https://www.linkedin.com/in/isheegattani/)
 
-GitHub: [Insert repo if created]
 
 ---
 
-**Note:** TwinForce is a submission to the Salesforce Agentforce Virtual Hackathon (2025) and is currently in development. The org provisioning issue has been reported and we're building around this limitation to still demonstrate value.
+**Note:** TwinForce is a submission to the Salesforce Agentforce Virtual Hackathon (2025) and is currently in development. The org provisioning issue has been reported, and we're still building around this limitation to demonstrate value.
 
