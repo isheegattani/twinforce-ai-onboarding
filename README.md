@@ -29,7 +29,7 @@ TwinForce provides each new hire with an AI twin—an onboarding buddy trained o
 - **Salesforce Data Cloud**: Stores personalized onboarding content, user profile, and progress.
 - **RAG (Retrieval-Augmented Generation)**: Provides intelligent answers grounded in internal knowledge base (policies, docs, etc.).
 
-```plaintext
+
 [User - Slack]
      ⇅
 [Slack Bot]
