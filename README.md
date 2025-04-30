@@ -21,13 +21,15 @@ TwinForce provides each new hire with an AI twin—an onboarding buddy trained o
 ---
 
 ### Architecture Diagram
-![Architecture](./A_diagram_created_in_a_digital_vector_graphic_medi.png)
+<img width="521" alt="image" src="https://github.com/user-attachments/assets/6ecc8a92-2552-436f-ad1a-8ee2e0b16bff" />
+
 
 ---
 
 ### Slack-to-Agentforce Integration Flow
 This illustrates how Slack commands trigger backend logic, which communicates with Salesforce Agentforce and optionally uses RAG for knowledge-based responses.
-![Slack Integration](./A_diagram_illustrates_the_integration_workflow_bet.png)
+<img width="771" alt="image" src="https://github.com/user-attachments/assets/f2977214-99fe-4dba-85be-3545a1e029f0" />
+
 
 ---
 
