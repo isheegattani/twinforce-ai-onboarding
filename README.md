@@ -1,4 +1,4 @@
-# TwinForce: AI RampUp Buddy
+**# TwinForce: AI RampUp Buddy**
 
 ### Overview
 TwinForce is your AI-powered onboarding assistant that mimics a high-performing teammate. It helps new hires ramp up faster by providing personalized guidance, answering onboarding questions, and offering contextual nudges—integrated seamlessly with Salesforce and Slack.
@@ -6,7 +6,7 @@ TwinForce is your AI-powered onboarding assistant that mimics a high-performing 
 ---
 
 ### Problem
-New employees often struggle with information overload, inconsistent onboarding experiences, and a lack of immediate support. Managers, on the other hand, are stretched thin and unable to offer personalized onboarding at scale.
+New employees often struggle with information overload, inconsistent onboarding experiences, and lack of immediate support. Managers, on the other hand, are stretched thin and unable to offer personalized onboarding at scale.
 
 ---
 
@@ -21,74 +21,75 @@ TwinForce provides each new hire with an AI twin—an onboarding buddy trained o
 ---
 
 ### Architecture Diagram
-
-**TwinForce System Flow:**
-
-- **Slack Bot**: User interface where the new hire interacts via natural language.
-- **Agentforce (Salesforce)**: Handles logic and orchestrates onboarding tasks.
-- **Salesforce Data Cloud**: Stores personalized onboarding content, user profile, and progress.
-- **RAG (Retrieval-Augmented Generation)**: Provides intelligent answers grounded in the internal knowledge base (policies, docs, etc.).
-
-
-<img width="403" alt="image" src="https://github.com/user-attachments/assets/f4083dd7-96a8-49d8-94c3-11637a9d0dc4" />
-
-
+![Architecture](./A_diagram_created_in_a_digital_vector_graphic_medi.png)
 
 ---
 
 ### Features
-- **Slack Integration**: Conversational onboarding experience for new hires.
-- **Agent Builder**: Logic defined using Salesforce Agentforce framework.
-- **Salesforce Data Cloud**: Stores and retrieves onboarding content, user profile data.
-- **Retrieval-Augmented Generation**: Delivers smart, context-aware responses to questions.
+- **Slack Integration**: Conversational onboarding experience using the `/twinforce` command.
+- **Agent Builder**: Logic defined in Salesforce Agentforce via Einstein Bot.
+- **Salesforce Data Cloud**: Stores and retrieves onboarding content and profile data.
+- **Retrieval-Augmented Generation**: Delivers smart, context-aware responses.
 - **Progress Tracker**: Visualize ramp-up progress; alert managers about blockers.
 
 ---
 
 ### Tech Stack
-- Salesforce Agentforce
+- Salesforce Einstein Bot Builder (Agentforce)
 - Salesforce Data Cloud
-- Slack SDK
+- Slack (Custom Slash Command)
+- Node.js + Express (Backend on Render)
 - Retrieval-Augmented Generation (RAG)
-- Notion (for initial knowledge base)
+- Notion / Google Docs (Mock KB)
 
 ---
 
-### Screenshots (To Be Added)
-- Agent Builder setup screen
-- Slack chat example
-- Progress dashboard mock
-- Architecture diagram
+### Screenshots
+#### 🧠 Architecture
+![Architecture](./A_diagram_created_in_a_digital_vector_graphic_medi.png)
+
+#### 💬 Slack Slash Command
+![Slash Command](./A_digital_screenshot_displays_the_%22Create_New_Comm.png)
+
+#### ⚙️ Render Deployment
+![Render Logs](./A_digital_screenshot_displays_a_Render_web_service.png)
+
+#### 👋 Bot Welcome Flow
+![Bot Welcome](./A_digital_screenshot_shows_a_Salesforce_Einstein_B.png)
+
+#### ⛔ No Agent Response
+![No Agent](./file-JBTWsyod7xY8n6EvuVJDKj.png) <!-- Replace with saved version if uploaded separately -->
 
 ---
 
 ### What We’d Do With More Time
-- Add multilingual and accessibility support
-- Connect to LinkedIn Learning and Trailhead
-- Expand for cross-functional onboarding (Sales, Eng, HR)
-- Add sentiment analysis for employee wellness
+- Fully automate Slack user onboarding workflow
+- Integrate with Trailhead & LinkedIn Learning
+- Add sentiment tracking & AI nudges
+- Expand for multiple onboarding types (HR, Sales, Engineering)
 
 ---
 
 ### Submission Info (For Devpost)
 - **Project Title**: AI RampUp Buddy
 - **Tagline**: Your AI twin that accelerates onboarding and builds confidence.
-- **Built With**: Agentforce, Slack, Data Cloud, RAG, Salesforce Platform
-- **Demo Video**: [Insert YouTube link]
+- **Built With**: Agentforce, Slack, Data Cloud, RAG, Render, GitHub
+- **Backend URL**: https://twinforce-ai-onboarding.onrender.com
+- **Slash Command**: `/twinforce` (Mocked if app not installed)
 
 ---
 
 ### Contact
 **Mayank Jain**  
 Email: mayankja09@gmail.com  
-LinkedIn: [https://www.linkedin.com/in/manuj4u/](https://www.linkedin.com/in/manuj4u/)  
+LinkedIn: [https://www.linkedin.com/in/manuj4u/](https://www.linkedin.com/in/manuj4u/)
 
 **Ishee Gattani**  
 Email: ishee.gattani30@gmail.com  
 LinkedIn: [https://www.linkedin.com/in/isheegattani/](https://www.linkedin.com/in/isheegattani/)
 
+GitHub Repo: [https://github.com/isheegattani/twinforce-ai-onboarding](https://github.com/isheegattani/twinforce-ai-onboarding)
 
 ---
 
-**Note:** TwinForce is a submission to the Salesforce Agentforce Virtual Hackathon (2025) and is currently in development. The org provisioning issue has been reported, and we're still building around this limitation to demonstrate value.
-
+**Note:** TwinForce was developed for the Salesforce Agentforce Hackathon 2025. Slack integration is mocked due to workspace install restrictions, but backend functionality is fully implemented and demonstrated via live Render server.
