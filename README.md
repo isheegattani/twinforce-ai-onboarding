@@ -67,17 +67,9 @@ This illustrates how Slack commands trigger backend logic, which communicates wi
 <img width="1470" alt="image" src="https://github.com/user-attachments/assets/fc09c651-61f2-4cf0-8fff-2fc8e74fc1b8" />
 
 ---
-
 ### What We’d Do With More Time
-- Train TwinForce using onboarding documents like Confluence pages, team architecture diagrams, service wikis, and knowledge transfer materials so new joiners can get technical context directly within Slack
-- Fully automate Slack user onboarding workflow
-- Integrate with Trailhead & LinkedIn Learning
-- Add sentiment tracking & AI nudges
-- Expand for multiple onboarding types (HR, Sales, Engineering) Train TwinForce using technical onboarding materials like Confluence wikis, architecture diagrams, service documentation, and team workflows
-- Fully automate Slack user onboarding workflow
-- Integrate with Trailhead & LinkedIn Learning
-- Add sentiment tracking & AI nudges
-- Expand for multiple onboarding types (HR, Sales, Engineering) Fully automate Slack user onboarding workflow
+- Train TwinForce using onboarding documents like Confluence pages, architecture diagrams, team wikis, and knowledge transfer materials so new joiners can instantly access technical context via Slack
+- Fully automate the Slack user onboarding workflow
 - Integrate with Trailhead & LinkedIn Learning
 - Add sentiment tracking & AI nudges
 - Expand for multiple onboarding types (HR, Sales, Engineering)
