@@ -1,4 +1,4 @@
-**# TwinForce: AI RampUp Buddy**
+# TwinForce: AI RampUp Buddy
 
 ### Overview
 TwinForce is your AI-powered onboarding assistant that mimics a high-performing teammate. It helps new hires ramp up faster by providing personalized guidance, answering onboarding questions, and offering contextual nudges—integrated seamlessly with Salesforce and Slack.
