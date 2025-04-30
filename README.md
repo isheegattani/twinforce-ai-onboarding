@@ -25,6 +25,12 @@ TwinForce provides each new hire with an AI twin—an onboarding buddy trained o
 
 ---
 
+### Slack-to-Agentforce Integration Flow
+This illustrates how Slack commands trigger backend logic, which communicates with Salesforce Agentforce and optionally uses RAG for knowledge-based responses.
+![Slack Integration](./A_diagram_illustrates_the_integration_workflow_bet.png)
+
+---
+
 ### Features
 - **Slack Integration**: Conversational onboarding experience using the `/twinforce` command.
 - **Agent Builder**: Logic defined in Salesforce Agentforce via Einstein Bot.
@@ -48,22 +54,17 @@ TwinForce provides each new hire with an AI twin—an onboarding buddy trained o
 #### 🧠 Architecture
 <img width="372" alt="image" src="https://github.com/user-attachments/assets/1c7a4e9a-aaee-4359-af3f-c336c55c7ffd" />
 
-
 #### 💬 Slack Slash Command
 <img width="364" alt="image" src="https://github.com/user-attachments/assets/177e85bd-afe0-4946-a685-92817bd313ba" />
-
 
 #### ⚙️ Render Deployment
 <img width="1444" alt="image" src="https://github.com/user-attachments/assets/705a2087-f038-43b2-b638-e8c5b37b6023" />
 
-
 #### 👋 Bot Welcome Flow
 <img width="1448" alt="image" src="https://github.com/user-attachments/assets/e1abbb2d-9a0e-4170-895e-9940d6b5e455" />
 
-
 #### ⛔ No Agent Response
 <img width="1470" alt="image" src="https://github.com/user-attachments/assets/fc09c651-61f2-4cf0-8fff-2fc8e74fc1b8" />
-
 
 ---
 
