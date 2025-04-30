@@ -21,15 +21,13 @@ TwinForce provides each new hire with an AI twin—an onboarding buddy trained o
 ---
 
 ### Architecture Diagram
-
-<img width="564" alt="image" src="https://github.com/user-attachments/assets/ff8f15b9-4b49-467a-aaef-78007e4f56f7" />
+![Architecture](./A_diagram_created_in_a_digital_vector_graphic_medi.png)
 
 ---
 
 ### Slack-to-Agentforce Integration Flow
 This illustrates how Slack commands trigger backend logic, which communicates with Salesforce Agentforce and optionally uses RAG for knowledge-based responses.
-<img width="790" alt="image" src="https://github.com/user-attachments/assets/df6d2ed6-b814-4d97-ba49-a012c54afea7" />
-
+![Slack Integration](./A_diagram_illustrates_the_integration_workflow_bet.png)
 
 ---
 
@@ -71,7 +69,15 @@ This illustrates how Slack commands trigger backend logic, which communicates wi
 ---
 
 ### What We’d Do With More Time
+- Train TwinForce using onboarding documents like Confluence pages, team architecture diagrams, service wikis, and knowledge transfer materials so new joiners can get technical context directly within Slack
 - Fully automate Slack user onboarding workflow
+- Integrate with Trailhead & LinkedIn Learning
+- Add sentiment tracking & AI nudges
+- Expand for multiple onboarding types (HR, Sales, Engineering) Train TwinForce using technical onboarding materials like Confluence wikis, architecture diagrams, service documentation, and team workflows
+- Fully automate Slack user onboarding workflow
+- Integrate with Trailhead & LinkedIn Learning
+- Add sentiment tracking & AI nudges
+- Expand for multiple onboarding types (HR, Sales, Engineering) Fully automate Slack user onboarding workflow
 - Integrate with Trailhead & LinkedIn Learning
 - Add sentiment tracking & AI nudges
 - Expand for multiple onboarding types (HR, Sales, Engineering)
