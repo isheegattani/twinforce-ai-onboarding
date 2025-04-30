@@ -21,7 +21,24 @@ TwinForce provides each new hire with an AI twin—an onboarding buddy trained o
 ---
 
 ### Architecture Diagram
-**[Placeholder: Include a system diagram showing Slack + Agentforce + Data Cloud + RAG integration]**
++------------------+         +----------------------+        +---------------------+
+|  New Hire (User) | <--->   |      Slack Bot       | <----> |    Agentforce Agent |
++------------------+         +----------------------+        +---------------------+
+                                       |                               |
+                                       |                               |
+                                       v                               v
+                          +----------------------+         +---------------------+
+                          | Salesforce Data Cloud | <----> |  RAG/Knowledge Base |
+                          +----------------------+         +---------------------+
+Description:
+
+Slack Bot serves as the main communication layer for onboarding interactions.
+
+Agentforce Agent powers the logic: assigning tasks, answering FAQs, and prompting users.
+
+Salesforce Data Cloud stores personalized onboarding data (tasks, progress, role context).
+
+RAG Layer connects the agent to a grounded knowledge base (internal docs, policies, best practices) for accurate responses.
 
 ---
 
