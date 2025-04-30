@@ -46,19 +46,24 @@ TwinForce provides each new hire with an AI twin—an onboarding buddy trained o
 
 ### Screenshots
 #### 🧠 Architecture
-![Architecture](./A_diagram_created_in_a_digital_vector_graphic_medi.png)
+<img width="372" alt="image" src="https://github.com/user-attachments/assets/1c7a4e9a-aaee-4359-af3f-c336c55c7ffd" />
+
 
 #### 💬 Slack Slash Command
-![Slash Command](./A_digital_screenshot_displays_the_%22Create_New_Comm.png)
+<img width="364" alt="image" src="https://github.com/user-attachments/assets/177e85bd-afe0-4946-a685-92817bd313ba" />
+
 
 #### ⚙️ Render Deployment
-![Render Logs](./A_digital_screenshot_displays_a_Render_web_service.png)
+<img width="1444" alt="image" src="https://github.com/user-attachments/assets/705a2087-f038-43b2-b638-e8c5b37b6023" />
+
 
 #### 👋 Bot Welcome Flow
-![Bot Welcome](./A_digital_screenshot_shows_a_Salesforce_Einstein_B.png)
+<img width="1448" alt="image" src="https://github.com/user-attachments/assets/e1abbb2d-9a0e-4170-895e-9940d6b5e455" />
+
 
 #### ⛔ No Agent Response
-![No Agent](./file-JBTWsyod7xY8n6EvuVJDKj.png) <!-- Replace with saved version if uploaded separately -->
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/fc09c651-61f2-4cf0-8fff-2fc8e74fc1b8" />
+
 
 ---
 
@@ -92,4 +97,4 @@ GitHub Repo: [https://github.com/isheegattani/twinforce-ai-onboarding](https://g
 
 ---
 
-**Note:** TwinForce was developed for the Salesforce Agentforce Hackathon 2025. Slack integration is mocked due to workspace install restrictions, but backend functionality is fully implemented and demonstrated via live Render server.
+**Note:** TwinForce was developed for the Salesforce Agentforce Hackathon 2025. Slack integration is mocked due to workspace install restrictions, but backend functionality is fully implemented and demonstrated via a live Render server.
